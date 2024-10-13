@@ -1,0 +1,20 @@
+We convert categorical variables into factors for analysis
+Boxplots are generated to visualize the distribution of insurance charges based on categorical variables
+We build a linear regression model to predict charges based on all available predictors:
+
+Model Interpretation
+Coefficients: Show the estimated change in charges for each unit increase in the predictor variable, holding all other variables constant.
+Standard Error: Indicates the precision of the coefficient estimates.
+t-values and p-values: Help assess whether the predictor variables significantly contribute to predicting charges. A low p-value (typically < 0.05) suggests that the variable is significant.
+R-squared: Indicates the proportion of variance in charges explained by the model. Values closer to 1 suggest a better fit.
+Adjusted R-squared: Adjusted for the number of predictors, providing a more accurate measure for multiple regression.
+F-statistic: Tests whether at least one predictor variable has a non-zero coefficient.
+
+Prediction Methodology
+Using Variance for Predictions
+The variance of the residuals (the difference between observed and predicted values) provides insight into the models accuracy. 
+A smaller variance indicates a better fit, meaning that the model’s predictions are closer to the actual values. To make predictions for new customers
+
+
+
+
